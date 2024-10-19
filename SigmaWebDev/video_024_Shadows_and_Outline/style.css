@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+.box {
+  border: 2px solid black;
+  /* box-shadow: h-offset v-offset blur spread color inset; */
+  box-shadow: 20px 10px 20px 6px #0e586a inset;
+  margin: 34px;
+  padding: 34px;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+p {
+  text-shadow: 20px 5px 3px #e695f7;
+  outline: 2px solid black;
+  outline-offset: 12px;
+  border: 2px solid blue;
+  border-radius: 77px;
+}
