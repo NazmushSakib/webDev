@@ -1,0 +1,21 @@
+* {
+  margin: 2;
+  padding: 2;
+  background: gray;
+}
+
+div ul li {
+  list-style: bengali;
+  background-color: pink;
+  list-style-position: inside; /*to take the marker inside of background-color*/
+  border: 2px solid black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 13px;
+}
+nav li {
+  padding: 13px;
+}
