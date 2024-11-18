@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(./bg.jpg);
+  background-size: 100vw;
+}
+.bg {
+  background-color: rgba(240, 138, 128, 0.5);
+  background-image: url(./css.jpg);
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.class1 {
+  background-color: rgba(232, 67, 147, 0.6);
+  background-image: url(./css.jpg);
+  background-size: 150px 150px;
+  background-repeat: repeat-x;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.class2 {
+  background: rgba(108, 92, 231, 0.6) url(./css.jpg) 100px center no-repeat;
+}

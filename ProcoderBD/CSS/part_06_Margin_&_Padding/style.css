@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #7f8c8d;
+}
+
+.parent {
+  background: rgba(85, 239, 196, 1);
+  margin: 41px;
+  padding: 30px;
+}
+
+.child {
+  background: #fd79a8;
+  margin: 20px 2px 20px 20px;
+  padding: 20px;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 2px;
+  padding: 2px;
+}
+
+h1 {
+  border-style: dashed;
+  color: #eb3b5a;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #b33939;
+}
+.solid {
+  border-style: solid;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #218c74;
+}
+.dashed {
+  border-style: dashed;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #cc8e35;
+}
+
+.none {
+  border-style: none;
+  margin-bottom: 10px;
+  border-width: 10px;
+}
+
+.ridge {
+  border-style: ridge;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #d1ccc0;
+}
+
+.inset {
+  border-style: inset;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #34ace0;
+}
+.dotted {
+  border-style: dotted;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #2ed573;
+}
+.double {
+  border-style: double;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #ff6b81;
+}
+.hidden {
+  border-style: hidden;
+  margin-bottom: 10px;
+  border-width: 10px;
+}
+.groove {
+  border-style: groove;
+  border-width: 10px;
+  margin-bottom: 10px;
+  border-color: #a29bfe;
+}
+.outset {
+  border-style: outset;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #fdcb6e;
+}
+.outset {
+  border-style: outset;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #0984e3;
+}
+.initial {
+  border-style: initial;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #00b894;
+}
+.inherit {
+  border-style: inherit;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: #ff7675;
+}
+.unset {
+  border-style: unset;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border-color: rgba(0, 206, 201, 1);
+}
