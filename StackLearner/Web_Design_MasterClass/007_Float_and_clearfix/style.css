@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  border: 5px dashed red;
+  height: 210px;
+}
+
+.left {
+  background-color: palegoldenrod;
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+
+.right {
+  background-color: palegreen;
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+
+.footer {
+  width: 800px;
+  height: 150px;
+  background-color: palevioletred;
+  margin: 0 auto;
+  
+}
+
+.Clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
