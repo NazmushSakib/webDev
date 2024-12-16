@@ -16,3 +16,28 @@ console.log(Boolean(null));
 console.log(Boolean(undefined));
 console.log(Boolean(0));
 console.log(Boolean(354));
+
+//****** 015 Operator *****
+
+var a = 12;
+var b = 45;
+
+console.log(a++);
+console.log(a);
+
+console.log(b);
+console.log(++b);
+console.log(b);
+console.log(--b);
+
+var a = 34;
+var b = 45;
+
+a += b; // a = a+b
+console.log(a); // a = a-b ;
+a -= b;
+console.log(a); // a = a-b
+a *= b;
+console.log(a); // a = a*b
+a /= b;
+console.log(a); // a = a/b

@@ -9,7 +9,7 @@
   box-sizing: border-box;
   display: inline-block;
   padding: 45px;
-  margin: 34px;
+  margin: 34px; 
   width: 344px;
   /* display: flex; */
   /* justify-content: center; */
@@ -22,7 +22,7 @@
 }
 
 .box1 {
-  /* display: none; */
+  display: none;
   /* visibility: hidden; */
   display: flex;
   justify-content: center;

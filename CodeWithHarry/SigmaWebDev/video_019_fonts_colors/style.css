@@ -19,7 +19,7 @@ h1 {
   font-style: italic;
   font-weight: 500;
   font-size: 20px;
-  color: red;
+  color: rgba(153, 0, 255, 0.616);
   line-height: 1.5;
   letter-spacing: 10px;
 }
@@ -27,10 +27,10 @@ h1 {
   font-family: Homenaje;
   font-size: 24px;
   border: 2px solid red;
-  width: 156px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  word-break: break-all;
+  width: 70px;
+  text-overflow: clip;
+  overflow:scroll;
+  /* word-break: break-all; */
 }
 
 h2 {

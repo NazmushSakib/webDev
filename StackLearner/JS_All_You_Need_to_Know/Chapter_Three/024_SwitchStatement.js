@@ -26,5 +26,3 @@ switch (today) {
   default:
     console.log("Invalid entry.");
 }
-
-console.log(date.getMonth());

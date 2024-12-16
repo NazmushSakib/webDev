@@ -6,29 +6,29 @@ console.log(609.35);
 console.log("My Favorite no. : 36");
 console.log("My Favorite no. : " + 8);
 console.log(9 + 9);
-console.log("9" + 9);
+console.log("9" + 9); //string + number = string
 
 //Video no. 006 Variable
 
-var name = "HM Nayem";
+var learnerName = "HM Nayem";
 var age = 26;
 
-console.log(name + " knows JavaScript");
+console.log(learnerName + " knows JavaScript");
 console.log("His age is only " + age);
-console.log(name + " is creating a JavaScript Course for All");
+console.log(learnerName + " is creating a JavaScript Course for All");
 console.log("But his age is only " + age);
 
 //Video no. 007  | JS Reserved Words
 var mathNumber = 10;
-var accountNumberDetailsId = 104;
+var accountNumberDetailsId = 104; //camelCase naming convention
 var account_number_details_id = 104;
 
 //Video no.008. JS Data Types
 //Theory based class. see notion
-var hex = 0xfe;
-var oct = 0o756;
-console.log(hex);
-console.log(oct);
+var hex = 0xfe; //hexadecimal number declaration
+var oct = 0o756; // ocatal number declaration
+console.log(hex); //to convert equivalent Binary Number.
+console.log(oct); //to convert equivalent Binary Number.
 
 //Video no. 009 JS Basic Number
 var n = 453;

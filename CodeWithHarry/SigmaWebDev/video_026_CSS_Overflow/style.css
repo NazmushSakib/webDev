@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+}
+
+.box{
+  
+  height: 20vh;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+.box-1{
+  width: 20vw;
+  overflow: auto;
+    
+}
+
+.box-2{
+  width: 60vw;
+  overflow: scroll;
+  white-space: nowrap; /*all text will be in a single line */
+  text-overflow: ellipsis;
+}
+
+.box-3{
+  width: 25vw;
+  overflow: auto hidden; /*X->auto Y-> hidden*/
+    
+}
