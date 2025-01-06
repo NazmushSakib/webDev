@@ -33,13 +33,13 @@ console.log(oct); //to convert equivalent Binary Number.
 //Video no. 009 JS Basic Number
 var n = 453;
 var f = 3.1416;
-var nn = Number("45");
+var nn = Number("45"); //string to number Conversion
 var mm = Number("543.23");
 console.log(nn);
-console.log(Number.parseFloat(nn));
-console.log(Number.parseInt(mm));
-console.log(Number.MAX_VALUE);
-console.log(Number.MIN_VALUE);
+console.log(Number.parseFloat(nn)); //integer to float
+console.log(Number.parseInt(mm)); //float to integer
+console.log(Number.MAX_VALUE); //length of max number
+console.log(Number.MIN_VALUE); // length of min number
 console.log(1 / 0);
 console.log("abc" * 10);
 

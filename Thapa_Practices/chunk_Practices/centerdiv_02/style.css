@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #5ee985;
+  background: linear-gradient(135deg, #5ee985, #1013e3);
+  height: 100vh;
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  background: #7b82e0;
+  background: linear-gradient(135deg, #7b82e0, #bc3459);
+  border-radius: 20px;
+  /* for text centering */
+  display: grid;
+  place-items: center;
+}
+
+/* 01. Using position */
+
+/* .child { */
+/*   position: absolute; */
+/* } */
+/* 02. using grid in parent02. using grid in parent body { */
+/*   display: grid; */
+/*   place-items: center; */
+/* } */
+
+/*03. using flexbox*/
+/* body { */
+/*   display: flex; */
+/*   justify-content: center; */
+/*   align-items: center; */
+/* } */
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}

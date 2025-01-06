@@ -18,3 +18,5 @@ var c = "2454";
 var d = 7564;
 console.log(Number(c));
 console.log(Number.parseFloat(d));
+var date = new Date();
+console.log(date.getMonth());
